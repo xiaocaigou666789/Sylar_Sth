@@ -1,11 +1,3 @@
-/**
- * @file thread.h
- * @brief 线程相关的封装
- * @author sylar.yin
- * @email 564628276@qq.com
- * @date 2019-05-31
- * @copyright Copyright (c) 2019年 sylar.yin All rights reserved (www.sylar.top)
- */
 #ifndef __SYLAR_THREAD_H__
 #define __SYLAR_THREAD_H__
 

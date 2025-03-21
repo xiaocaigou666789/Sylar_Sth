@@ -1,10 +1,3 @@
-/**
- * @file iomanager.cc
- * @brief IO协程调度器实现
- * @version 0.1
- * @date 2021-06-16
- */
-
 #include <unistd.h>    // for pipe()
 #include <sys/epoll.h> // for epoll_xxx()
 #include <fcntl.h>     // for fcntl()

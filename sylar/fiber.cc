@@ -1,10 +1,3 @@
-/**
- * @file fiber.cpp
- * @brief 协程实现
- * @version 0.1
- * @date 2021-06-15
- */
-
 #include <atomic>
 #include "fiber.h"
 #include "config.h"

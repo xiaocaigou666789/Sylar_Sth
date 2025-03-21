@@ -1,9 +1,3 @@
-/**
- * @file config.cc
- * @brief 配置模块实现
- * @version 0.1
- * @date 2021-06-14
- */
 #include "sylar/config.h"
 #include "sylar/env.h"
 #include "sylar/util.h"

@@ -1,10 +1,3 @@
-/**
- * @file iomanager.h
- * @brief IO协程调度器
- * @version 0.1
- * @date 2021-06-16
- */
-
 #ifndef __SYLAR_IOMANAGER_H__
 #define __SYLAR_IOMANAGER_H__
 

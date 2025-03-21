@@ -1,10 +1,3 @@
-# 重定义目标源码的__FILE__宏，使用相对路径的形式，避免暴露敏感信息
-
-# This function will overwrite the standard predefined macro "__FILE__".
-# "__FILE__" expands to the name of the current input file, but cmake
-# input the absolute path of source file, any code using the macro 
-# would expose sensitive information, such as MORDOR_THROW_EXCEPTION(x),
-# so we'd better overwirte it with filename.
 function(force_redefine_file_macro_for_sources targetname)
     get_target_property(source_files "${targetname}" SOURCES)
     foreach(sourcefile ${source_files})

@@ -1,10 +1,3 @@
-/**
- * @file env.cc
- * @brief 环境变量管理接口实现
- * @version 0.1
- * @date 2021-06-13
- * @todo 命令行参数解析应该用getopt系列接口实现，以支持选项合并和--开头的长选项
- */
 #include "env.h"
 #include "sylar/log.h"
 #include <string.h>

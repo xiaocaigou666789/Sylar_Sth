@@ -1,9 +1,3 @@
-/**
- * @file daemon.cc
- * @brief 守护进程启动实现
- * @version 0.1
- * @date 2021-12-09
- */
 #include "daemon.h"
 #include "log.h"
 #include "config.h"
